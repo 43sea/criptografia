@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+h1{
+    font-size: 14px;
+}
+
+.tabelaAscii{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 5px;
+    height: 170px;
+    min-width: 300px;
+}
+input{
+    width: 200px;
+    height: 20px;
+    outline: none;
+    width: 100%;
+}
+.criptografadoAsci, .descriptografadoAsci{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.msgAscii, .msgAscii2{
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid black;
+    text-indent: 10px;
+}
+h1{
+    width: 100%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.btnAscii, .btnAscii2{
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.inputs, .inputs2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
